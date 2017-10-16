@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a style="color: #4EAAA4; font-size: 32px; font-weight: bold;" class="navbar-brand" href="./HW_Page1.html">Lattitude</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">
+                  <a href="./HW_Page4.html">Max Temperature</a>
+                </li>
+                <li class="dropdown-header">
+                  <a href="./HW_Page4a.html">Humidity</a>
+                </li>
+                <li class="dropdown-header">
+                  <a href="./HW_Page4b.html">Cloudiness</a>
+                </li>
+                <li class="dropdown-header">
+                  <a href="./HW_Page4c.html">Wind Speed</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="./HW_Page3.html">Comparison</a>
+            </li>
+            <li>
+              <a href="./data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="width: 100%; height: 100vh; background-color: #EDEDED; margin-top: 40px;">
+      <div class="row">
+        <div class="col-sm-6" style="background-color: white; margin: 40px 30px">
+          <h2 style="color: #4EAAA4">
+          Max Temperature
+          </h2>
+          <hr>
+          <div style="margin-top: 10px">
+            <p style="line-height: 200%">
+              <img class="img-center center-block" src="../images/image2.png" style="width: 40%; float: left; margin-right: 30px">
+              As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earthtowards sun at the time of the year this data was gathered.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-5" style="background-color: white; margin-top: 40px; margin-left: 15px">
+          <h2 style="color: #4EAAA4"> Visualizations </h2>
+          <hr>
+          <div class="row" style="margin-top: 10px">
+            <div class="col-sm-12">
+              <a href="./HW_Page4.html">
+                <img class="float-left" src="../images/image2.png" style="width: 200px;  margin-left: 15px">
+              </a>
+              <a href="./HW_Page4a.html">
+                <img class="float-right" src="../images/image3.png" style="width: 200px; margin-left: 50px">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <a href="./HW_Page4b.html">
+                <img class="float-left" src="../images/image4.png" style="width: 200px; margin-left: 15px">
+              </a>
+              <a href="./HW_Page4c.html">
+                <img class="float-right" src="../images/image5.png" style="width: 200px; margin-left: 50px">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
